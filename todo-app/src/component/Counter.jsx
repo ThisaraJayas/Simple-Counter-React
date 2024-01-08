@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Counter.css'
-export default function Counter(){
+
+export default  function Counter(){
     const [count,setCount] = useState(0)
     function IncrementCounterParent(by){
         setCount(count+by)
@@ -18,7 +19,6 @@ export default function Counter(){
     )
 }
 function CounterButton({by, incrementMethod,decrementMethod}) {
-  
     const [count,setCount] = useState(0) //current state is 0
     function Increment(){
         setCount(count+by)
@@ -40,3 +40,5 @@ function CounterButton({by, incrementMethod,decrementMethod}) {
     </div>
   )
 }
+
+
