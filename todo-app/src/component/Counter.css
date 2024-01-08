@@ -9,6 +9,10 @@
     cursor: pointer;
 }
 .count{
-    font-size: 150px;
+    font-size: 50px;
     padding: 20px;
+}
+.countParent{
+    font-size: 110;
+    color: red;
 }

@@ -10,7 +10,7 @@ export default function Counter(){
     }
     return(
         <>
-        <span className='count'>{count}</span>
+        <span className='countParent'>{count}</span>
             <CounterButton by={1} incrementMethod={IncrementCounterParent} decrementMethod={DecrementCounterParent}/>
             <CounterButton by={2} incrementMethod={IncrementCounterParent} decrementMethod={DecrementCounterParent}/>
             <CounterButton by={5} incrementMethod={IncrementCounterParent} decrementMethod={DecrementCounterParent}/>
